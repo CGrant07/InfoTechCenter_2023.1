@@ -31,7 +31,7 @@ while x != 20:
 
 
 
-print("\n\n********************************************************************\n\n")
+print("\n********************************************************************\n")
 print("Checking current gas levels\n")
 sleep(1.5)
 
@@ -75,13 +75,9 @@ def gasLevelAlert():
 
 gasLevelAlert()
 
-print("\n********************************************************\n")
+print("\n********************************************************************\n")
 
-print("Weather Branch\n")
-
-#Import Libraries here
-import random
-from time import sleep
+print("Checking current weather condition")
 
 #Create a function randomly choosing the weather from a list
 def weather():
